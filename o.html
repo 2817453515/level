@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../图片/">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <style>
+            .carousel-inner .item img {
+                width: 100%;
+                /* or width: 100% !important; */
+            }
+
+
+            .carousel-inner>.item>img {
+                width: 100%;
+                /* Or try to use important */
+                height: 50%;
+            }
+
+            .carousel {
+                width: 100%;
+                /* Or try to use important */
+                height: 50%;
+            }
+        </style>
+        <div class="jumbortron text-center" style="margin-bottom: 0;">
+        <div class="nav navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="https://uland.taobao.com/">淘宝</a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a class="nav-link" href="https://www.tmall.com/" target="_blank">天猫</a>
+                        </li>
+                        <li><a class="nav-link" href="http://www.dandyweng.com/" target="_blank">翁天信</a></li>
+                        <li><a class="nav-link" href="https://mdbootstrap.com/" target="_blank">MDBbootstrap</a></li>
+                        <li><a class="nav-link" href="https://v.qq.com/" target="_blank">腾讯视频 </a></li>
+                        <li><a class="nav-link" href="https://www.baidu.com/" target="_blank">百度</a></li>
+                        <li>
+                            <div class="show">
+                                <a class="nav-link" href="https://wx.qq.com/" rel="nofollow" target="_blank">
+                                    <span class="fa fa-comment"></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="show">
+                            <a class="nav-link" href="https://im.qq.com/" target="_blank">
+                                <span class="fab fa-qq"></span>qq
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                                <i class="fab fa-twitter">微信</i>
+                            </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" alt="第一张图"
+                        class="img-round img-responsive">
+                    <div class="carousel-caption">
+                        明眸透琼瑶，满是天真态。
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/80.jpg" alt="第二张图"
+                        class="img-round img-responsive">
+                    <div class="carousel-caption">
+                        初见乍惊欢，久处亦怦然。
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/81.jpg" alt="第三张图"
+                        class="img-round img-responsive">
+                    <div class="carousel-caption">
+                        坚持执着，懂得分享，与人为善。
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div> 
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <hr>
+            <div class="col-md-4 col-sm-4">
+                <blockquote>
+                    这是一只小小鸟
+                    <small>它想飞却<cite title="Source title">飞不高</cite></cite></small>
+                </blockquote>
+                <div class="thumbnail">
+                    <img src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg" style="height: 300px; width: 300px;"
+                    alt="通用的占位符缩略图">
+                    <div class="caption">
+                        <h3>--茜子裤</h3>
+                        <p>像羽翼丰满的鸟儿一样高飞，呼啸山庄的凯茜小姐心里一直爱着它。 
+                        </p>
+                        <p>
+                            <a href="https://book.douban.com/" class="btn btn-xs btn-success" role="button" target="_blank">
+                               关于呼啸山庄
+                            </a> 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <blockquote>
+                    我可得留神
+                    <small><cite title="Source title">别让你因为我而对自己的恋爱选择懊悔。</cite></cite></small>
+                </blockquote>
+                <div class="thumbnail">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(72).jpg" 
+                    alt="通用的占位符缩略图">
+                    <div class="caption">
+                        <h3> </h3>
+                        <p> 整整一天，我在瞻廊里一边抚摸者“海鸥”，
+                            一边背靠柱子眼望一边的天空，我举得
+                            身上的力气已经完全消失。下午过后，
+                            黄昏来临，海鸥已不见踪影.
+                        </p>
+                        <p>
+                            <a href="https://movie.douban.com/" class="btn btn-xs btn-success" role="button" target="_blank">
+                               关于挪威的森林
+                            </a> 
+                        </p>
+                    </div>
+                </div>
+             </div>
+             <div class="col-md-4 col-sm-4">
+                <blockquote>
+                    尊严永远占据上风吧
+                    <small><cite title="Source title">信念，朋友，信念，不要像花一样枯萎！</cite></cite></small>
+                </blockquote>
+                <div class="thumbnail">
+                    <img src="https://img1.baidu.com/it/u=4123614413,2763515544&fm=26&fmt=auto&gp=0.jpg" 
+                    alt="通用的占位符缩略图">
+                    <div class="caption">
+                        <h3> </h3>
+                        <p>愿你永远激情满怀，永远热泪盈眶！！！ 
+                        </p>
+                        <p>
+                            <a href="http://blog.sina.com.cn/nbakobebryant" class="btn btn-xs btn-success" role="button" target="_blank">
+                               关于科比
+                            </a> 
+                        </p>
+                    </div>
+                </div>
+             </div>
+             
+            </div>
+
+        </div>
+        <div class="text-center">
+            <h4><strong>张家界</strong></h4>
+            <a
+               class="btn btn-primary mb-5"
+               href="http://www.dandyweng.com/"
+               role="button"
+               >Docs &amp; more Photos</a
+              >
+              <Br />
+          </div>
+          <div class="row">
+           <div class="jumbortron text-center" style="margin-bottom: 0%;">
+             <div  class="view overlay zoom">
+                 <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(131).jpg" class="img-fluid rounded-circle hoverable" alt="zoom">
+             </div>
+        </div>
+          </div>
+    </main>
+    <footer class="text-center text-white" style="background-color: #caced1;">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 再出发:
+          <a class="text-white" href="https://mdbootstrap.com/">One step by one step</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+
+</html>
